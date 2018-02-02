@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Jan 06, 2018 at 04:51 PM
+-- Generation Time: Feb 02, 2018 at 07:49 AM
 -- Server version: 10.1.28-MariaDB
 -- PHP Version: 7.1.11
 
@@ -96,9 +96,9 @@ CREATE TABLE `posts` (
 --
 
 INSERT INTO `posts` (`post_id`, `post_category_title`, `post_title`, `post_author`, `post_date`, `post_image`, `post_content`, `post_tags`, `post_comment_count`, `post_status`) VALUES
-(1, 'PHP', 'Edwins PHP Course', 'Edwin Diaz', '2018-01-06', 'php.jpeg', '<p>This course is awesome.</p>', 'edwin, php, course', 1, 'Published'),
-(2, 'PHP', 'Edwins PHP Course', 'Kartik', '2017-12-31', 'php.jpeg', 'This course is awesome.', 'edwin, php, javascript', 0, 'Published'),
-(3, 'PHP', 'Edwins PHP Course', 'Kartik', '2017-12-31', 'php.jpeg', 'This course is awesome.', 'edwin, php, javascript', 0, 'Published'),
+(1, 'PHP', 'PHP Course', 'Vishal', '2018-02-02', 'php.jpeg', '<p>This course is awesome.</p>', 'edwin, php, course', 1, 'Published'),
+(2, 'PHP', 'PHP Course', 'Kartik', '2018-02-02', 'php.jpeg', '<p>This course is awesome.</p>', 'edwin, php, javascript', 0, 'Published'),
+(3, 'PHP', 'Kannans Course', 'Kartik', '2018-02-02', 'php.jpeg', '<p>This course is awesome.</p>', 'edwin, php, javascript', 0, 'Published'),
 (4, 'HTML5', 'Hitesh Front end Web development Course', 'Kartik', '2017-12-04', 'frontend.jpeg', 'This course is really great. Could you please contact me?', 'hitesh, frontend, Html5, Css3, Javascript, Bootstrap, Jquery ', 0, 'Published'),
 (5, 'Jquery', 'The Ultimate Jquery Course', 'Kartik', '2017-12-29', 'jquery.jpeg', 'Become a JQuery Professional with this course!', 'hitesh chaudhary, javascript, jquery, libraries, coding, programming', 1, 'Published'),
 (6, 'C', 'Go from beginner to pro in C language', 'Dennis Ritchie', '2018-01-02', 'c_language.jpeg', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.', 'c, programming, dennis, procedural', 1, 'Drafts');

@@ -66,7 +66,7 @@
                       </div>
                       <div class="form-group">
                         <label for="exampleFormControlTextarea1">Content</label>
-                        <textarea class="form-control" id="post_content" name="post_content" rows="5" required></textarea>
+                        <textarea class="form-control" id="post_content" name="post_content" rows="15" required></textarea>
                       </div>
                       <button type="submit" class="btn btn-primary" name="submit">Publish Post</button>
                 </form>

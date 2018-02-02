@@ -116,7 +116,7 @@
                       </div>
                       <div class="form-group">
                         <label for="exampleFormControlTextarea1">Content</label>
-                        <textarea class="form-control" id="post_content" name="post_content" rows="5" required><?php echo "$post_content" ?></textarea>
+                        <textarea class="form-control" id="post_content" name="post_content" rows="15" required><?php echo "$post_content" ?></textarea>
                       </div>
                       <button type="submit" class="btn btn-primary" name="submit">Publish Post</button>
                 </form>
